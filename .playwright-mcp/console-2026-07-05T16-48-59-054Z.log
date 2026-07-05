@@ -1,0 +1,36 @@
+[     305ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8082/_boost/browser-logs @ http://127.0.0.1:8082/login:172
+[     305ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@vite/client' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:352
+[     305ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@vite/client:0
+[     305ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/app.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:352
+[     305ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/app.tsx:0
+[     305ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/pages/auth/login.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:352
+[     305ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/pages/auth/login.tsx:0
+[     317ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@react-refresh' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[     317ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@react-refresh:0
+[   11739ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8082/_boost/browser-logs @ http://127.0.0.1:8082/login:172
+[   11752ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@vite/client' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   11752ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@vite/client:0
+[   11752ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/app.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   11752ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/app.tsx:0
+[   11752ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/pages/auth/login.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   11753ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/pages/auth/login.tsx:0
+[   11753ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@react-refresh' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   11753ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@react-refresh:0
+[   32071ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8082/_boost/browser-logs @ http://127.0.0.1:8082/login:172
+[   32087ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@vite/client' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   32087ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@vite/client:0
+[   32087ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/app.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   32087ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/app.tsx:0
+[   32087ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/pages/auth/login.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   32087ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/pages/auth/login.tsx:0
+[   32089ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@react-refresh' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/login:0
+[   32089ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@react-refresh:0
+[   50764ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://127.0.0.1:8082/_boost/browser-logs @ http://127.0.0.1:8082/register:172
+[   50770ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@vite/client' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/register:0
+[   50770ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@vite/client:0
+[   50771ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/app.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/register:0
+[   50771ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/app.tsx:0
+[   50771ms] [ERROR] Access to script at 'http://192.168.7.225:5173/resources/js/pages/auth/register.tsx' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/register:0
+[   50771ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/resources/js/pages/auth/register.tsx:0
+[   50772ms] [ERROR] Access to script at 'http://192.168.7.225:5173/@react-refresh' from origin 'http://127.0.0.1:8082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8082/register:0
+[   50772ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://192.168.7.225:5173/@react-refresh:0

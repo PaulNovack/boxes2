@@ -13,12 +13,15 @@ class Box extends Model
 
     protected $fillable = ['name', 'weight', 'picture'];
 
-    public function user()
+    public function user(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    public function items()
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany<Item, $this>
+     */
+    public function items(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(Item::class);
     }

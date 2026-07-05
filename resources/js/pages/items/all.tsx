@@ -1,12 +1,5 @@
 import { Head, Link } from '@inertiajs/react';
-import { ArrowLeft, Package, Search } from 'lucide-react';
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from '@/components/ui/card';
+import { ArrowLeft, Package } from 'lucide-react';
 import { index as boxes } from '@/routes/boxes';
 import type { BreadcrumbItem } from '@/types';
 

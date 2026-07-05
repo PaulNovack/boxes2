@@ -126,7 +126,6 @@ export default function ItemsIndex({ box, items, boxes }: Props) {
                             <ItemCard
                                 key={item.id}
                                 item={item}
-                                box={box}
                                 boxes={boxes}
                             />
                         ))}
@@ -139,11 +138,9 @@ export default function ItemsIndex({ box, items, boxes }: Props) {
 
 function ItemCard({
     item,
-    box,
     boxes,
 }: {
     item: ItemType;
-    box: BoxType;
     boxes: BoxType[];
 }) {
     const [selectedBoxId, setSelectedBoxId] = useState('');

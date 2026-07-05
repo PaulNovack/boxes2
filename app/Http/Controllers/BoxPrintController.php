@@ -15,7 +15,7 @@ class BoxPrintController extends Controller
     /**
      * Generate a printable PDF for a box with a QR code.
      */
-    public function __invoke(Request $request, Box $box)
+    public function __invoke(Request $request, Box $box): \Illuminate\Http\Response
     {
         $this->authorize('view', $box);
 

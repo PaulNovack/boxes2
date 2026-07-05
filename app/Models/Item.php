@@ -13,7 +13,7 @@ class Item extends Model
 
     protected $fillable = ['name', 'quantity', 'picture', 'box_id'];
 
-    public function box()
+    public function box(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(Box::class);
     }

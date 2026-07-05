@@ -11,12 +11,3 @@ parameters:
         - routes/
 
     level: 7
-
-    ignoreErrors:
-        - '#Relation .box. is not found in App\\Models\\Item model#'
-        - '#Access to an undefined property App\\Models\\Item::\$box#'
-        - '#Method App\\Models\\Box::user\(\) has no return type specified#'
-        - '#Method App\\Models\\Box::items\(\) has no return type specified#'
-        - '#Method App\\Models\\Item::box\(\) has no return type specified#'
-        - '#Method App\\Http\\Controllers\\BoxPrintController::__invoke\(\) has no return type specified#'
-        - '#Method App\\Models\\User::boxes\(\) return type with generic class#'

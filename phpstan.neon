@@ -10,7 +10,7 @@ parameters:
         - database/
         - routes/
 
-    level: 6
+    level: 8
 
     ignoreErrors:
         - '#Relation .box. is not found in App\\Models\\Item model#'

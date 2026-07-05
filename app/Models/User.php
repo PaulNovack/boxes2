@@ -49,9 +49,7 @@ class User extends Authenticatable implements PasskeyUser
         ];
     }
 
-    /**
-     * @return HasMany<Box, $this>
-     */
+    /** @return HasMany<Box, $this> */
     public function boxes(): HasMany
     {
         return $this->hasMany(Box::class);

@@ -15,17 +15,13 @@ class Box extends Model
 
     protected $fillable = ['name', 'weight', 'picture'];
 
-    /**
-     * @return BelongsTo<User, $this>
-     */
+    /** @return BelongsTo<User, $this> */
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    /**
-     * @return HasMany<Item, $this>
-     */
+    /** @return HasMany<Item, $this> */
     public function items(): HasMany
     {
         return $this->hasMany(Item::class);

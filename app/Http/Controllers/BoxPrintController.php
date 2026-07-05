@@ -9,13 +9,14 @@ use BaconQrCode\Renderer\RendererStyle\RendererStyle;
 use BaconQrCode\Writer;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class BoxPrintController extends Controller
 {
     /**
      * Generate a printable PDF for a box with a QR code.
      */
-    public function __invoke(Request $request, Box $box): \Illuminate\Http\Response
+    public function __invoke(Request $request, Box $box): Response
     {
         $this->authorize('view', $box);
 

@@ -5,6 +5,7 @@ namespace App\Models;
 use Database\Factories\ItemFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Item extends Model
 {
@@ -13,7 +14,10 @@ class Item extends Model
 
     protected $fillable = ['name', 'quantity', 'picture', 'box_id'];
 
-    public function box(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    /**
+     * @return BelongsTo<Box, $this>
+     */
+    public function box(): BelongsTo
     {
         return $this->belongsTo(Box::class);
     }
